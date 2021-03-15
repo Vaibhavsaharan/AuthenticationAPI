@@ -4,7 +4,7 @@ Developed two API interface using Django restframework containerized with docker
 
 ## Installation
 * If you wish to run your own build, first ensure you have python globally installed in your computer. If not, you can get python [here](https://www.python.org").
-
+* Install Docker-compose from [here](https://docs.docker.com/compose/install/).
 * Then, Git clone this repo to your PC
     ```bash
         $ git clone https://github.com/Vaibhavsaharan/vernacular.git
