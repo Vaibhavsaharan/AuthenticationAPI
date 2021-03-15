@@ -13,13 +13,15 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+def home(request):
+    return HttpResponse("Test your post api using postman")
+
 def validate_finite_values_entity_util(request):
     if request.method == 'POST':
             api_data = JSONParser().parse(request)
             api_serializer = Api1Serializer(data=api_data)
             if api_serializer.is_valid():
                 data = api_data
-                print(data)
                 result = validate_finite_values_entity(data['values'],data['supported_values'],data['invalid_trigger'],data['key'],data['support_multiple']
                 ,data['pick_first'],type=data['type'][0])
                 response_dict = {}
@@ -36,7 +38,6 @@ def validate_numeric_entity_util(request):
             api_serializer = Api2Serializer(data=api_data)
             if api_serializer.is_valid():
                 data = api_data
-                print(data)
                 result = validate_numeric_entity(data['values'],data['invalid_trigger'],data['key']
                 ,data['pick_first'],data['constraint'],data['var_name'],type=data['type'][0])
                 response_dict = {}
