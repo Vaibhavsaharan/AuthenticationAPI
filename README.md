@@ -13,7 +13,7 @@ Developed two API interface using Django restframework containerized with docker
 * #### Run It
     * Cd into your the cloned repo as such:
         ```bash
-            $ cd vernacular
+            $ cd AuthenticationAPI
         ```
     * Fire up the server using this one simple command:
         ```bash
