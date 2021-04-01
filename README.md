@@ -7,7 +7,7 @@ Developed two API interface using Django restframework containerized with docker
 * Install Docker-compose from [here](https://docs.docker.com/compose/install/).
 * Then, Git clone this repo to your PC
     ```bash
-        $ git clone https://github.com/Vaibhavsaharan/RestaurantAPI.git
+        $ git clonehttps://github.com/Vaibhavsaharan/AuthenticationAPI.git
     ```
 
 * #### Run It
