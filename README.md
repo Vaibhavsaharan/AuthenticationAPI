@@ -24,8 +24,3 @@ Developed two API interface using Django restframework containerized with docker
     * Test the api using postman
       ![Postman ss](https://github.com/Vaibhavsaharan/vernacular/blob/main/images/postman1.png)
       
-### Assumptions
-* Used python built in symbol 'type' as a variable name.
-* Removed Django's CSRF middleware for testing purposes.
-* Tried CI with github action but it didn't work as it requires github pro/enterprise version.
-* Figured out some mistakes in assignment in 2nd api section, support_multiple is not available, last two test cases were confusing, So returned the respose in accordance with 1st api response without incorporating support_multiple.
